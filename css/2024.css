@@ -1,0 +1,508 @@
+body {
+    background-image: url('/assets/images/background2.jpg');
+    background-size: cover; /* Memastikan gambar mengisi seluruh area latar belakang */
+    background-position: center; /* Menengahkan gambar latar belakang */
+}
+
+
+/* Additional styling for judul-daftar-perjalanan */
+.judul-daftar-perjalanan {
+    font-family: 'Playwrite NG Modern', cursive; /* Contoh: menggunakan Arial */
+    font-size: 3rem; /* Ukuran font */
+    color: #333; /* Warna teks */
+    text-align: center; /* Pusatkan teks */
+    margin-bottom: 20px; /* Jarak bawah dari judul */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Bayangan teks untuk efek visual */
+    font-style: inherit;
+}
+
+.deskripsi {
+    font-family: 'Playwrite NG Modern', cursive; /* Contoh: menggunakan Arial */
+    font-size: 1rem; /* Ukuran font */
+    color: #333; /* Warna teks */
+    text-align: center; /* Pusatkan teks */
+    margin-bottom: 20px; /* Jarak bawah dari judul */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Bayangan teks untuk efek visual */
+    font-style: inherit;
+}
+
+.judul-bulan {
+    text-align: center; /* Pusatkan teks */
+    font-family: 'Playwrite NG Modern', cursive; /* Gunakan font Roboto */
+    font-weight: bold; /* Font tebal */
+    font-size: 2.5rem; /* Ukuran font */
+    margin-bottom: 20px; /* Jarak bawah dari judul */
+    padding: 10px; /* Padding untuk ruang di sekitar teks */
+    border: 2px solid #333; /* Border hitam 2px solid */
+    border-radius: 8px; /* Sudut bulat */
+}
+
+/* CSS untuk animasi love */
+@keyframes love-fall {
+    0% {
+        transform: translateY(-100vh) rotate(0deg);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(100vh) rotate(720deg);
+        opacity: 1;
+    }
+}
+
+/* CSS untuk love */
+.love {
+    position: fixed;
+    top: 0px; /* Mulai dari atas halaman */
+    left: 50%; /* Pusatkan elemen love di tengah */
+    font-size: 20px; /* Sesuaikan ukuran dengan gambar atau emoji Anda */
+    animation: love-fall 10s linear infinite; /* Animasi love bergerak turun */
+    z-index: -1; /* Mengatur z-index agar love berada di belakang konten utama */
+}
+
+
+
+/* Custom CSS for travel cards */
+.travel-card {
+    margin-bottom: 20px;
+    height: 100%;
+    overflow: hidden; /* Hindari overflow dari elemen kartu */
+    position: relative; /* Atur posisi relatif untuk animasi */
+    border: none; /* Hapus border untuk tampilan yang lebih bersih */
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan untuk efek 3D */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transisi untuk transformasi dan bayangan */
+  }
+  
+  .travel-card:hover {
+    transform: translateY(-5px); /* Angkat sedikit kartu saat digulirkan */
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2); /* Bayangan lebih tebal saat digulirkan */
+  }
+  
+  .travel-card .card-img {
+    height: 200px; /* Height of the card image */
+    max-width: 100%;
+    background-size: cover; /* Mengisi ruang secara proporsional */
+    background-position: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .travel-card .card-body {
+    background-color: #ffffff; /* Background color of card body */
+    padding: 20px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+
+  .travel-card2 .card-img2 {
+    height: 420px; /* Height of the card image */
+    max-width: 100%;
+    background-size: cover; /* Mengisi ruang secara proporsional */
+    background-position: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+
+  .travel-card2 .card-body2 {
+    background-color: #ffffff; /* Background color of card body */
+    padding: 20px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  
+  .travel-card .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .travel-card .card-text {
+    text-align: center;
+    font-size: 1rem;
+    color: #555;
+  }
+
+  .travel-card2 .card-text {
+    text-align: center;
+    font-size: 1rem;
+    color: #555;
+  }
+
+  .card-title {
+    text-align: center; /* Pusatkan teks dalam .card-title */
+    position: relative; /* Pengaturan posisi relatif untuk mengatur .card-number */
+}
+
+.card-number {
+    display: block; /* Menjadikan nomor urut sebagai blok untuk mengatur lebar dan tinggi */
+    font-size: 24=px; /* Ukuran font nomor urut */
+    color: #1703fb; /* Warna font nomor urut */
+    font-weight: bold; /*gaya font menjadi tebal*/
+    position: absolute; /* Pengaturan posisi absolut untuk menempatkan di bawah tengah */
+    bottom: 20px; /* Atur jarak dari bawah, sesuaikan dengan kebutuhan */
+    left: 170px;
+    right: 0;
+    margin: 0 auto; /* Pusatkan secara horizontal */
+}
+
+.card-numberx {
+  display: block; /* Menjadikan nomor urut sebagai blok untuk mengatur lebar dan tinggi */
+  font-size: 24=px; /* Ukuran font nomor urut */
+  color: hsl(0, 98%, 50%); /* Warna font nomor urut */
+  font-weight: bold; /*gaya font menjadi tebal*/
+  position: absolute; /* Pengaturan posisi absolut untuk menempatkan di bawah tengah */
+  bottom: 20px; /* Atur jarak dari bawah, sesuaikan dengan kebutuhan */
+  left: 170px;
+  right: 0;
+  margin: 0 auto; /* Pusatkan secara horizontal */
+}
+
+.card-number2 {
+  display: block; /* Menjadikan nomor urut sebagai blok untuk mengatur lebar dan tinggi */
+  font-size: 24=px; /* Ukuran font nomor urut */
+  color: #1703fb; /* Warna font nomor urut */
+  font-weight: bold; /*gaya font menjadi tebal*/
+  position: absolute; /* Pengaturan posisi absolut untuk menempatkan di bawah tengah */
+  bottom: 20px; /* Atur jarak dari bawah, sesuaikan dengan kebutuhan */
+  left: 255px;
+  right: 0;
+  margin: 0 auto; /* Pusatkan secara horizontal */
+}
+
+.card-number2x {
+  display: block; /* Menjadikan nomor urut sebagai blok untuk mengatur lebar dan tinggi */
+  font-size: 24=px; /* Ukuran font nomor urut */
+  color:  hsl(0, 98%, 50%); /* Warna font nomor urut */
+  font-weight: bold; /*gaya font menjadi tebal*/
+  position: absolute; /* Pengaturan posisi absolut untuk menempatkan di bawah tengah */
+  bottom: 20px; /* Atur jarak dari bawah, sesuaikan dengan kebutuhan */
+  left: 255px;
+  right: 0;
+  margin: 0 auto; /* Pusatkan secara horizontal */
+}
+
+.card-number3 {
+  display: block; /* Menjadikan nomor urut sebagai blok untuk mengatur lebar dan tinggi */
+  font-size: 24=px; /* Ukuran font nomor urut */
+  color: #1703fb; /* Warna font nomor urut */
+  font-weight: bold; /*gaya font menjadi tebal*/
+  position: absolute; /* Pengaturan posisi absolut untuk menempatkan di bawah tengah */
+  bottom: 20px; /* Atur jarak dari bawah, sesuaikan dengan kebutuhan */
+  left: 0px;
+  right: 0;
+  margin: 0 auto; /* Pusatkan secara horizontal */
+}
+
+
+
+
+  
+  /* Custom style for Bali Vacation card */
+  .bali-card .card-img {
+    background-position: top; /* Change background position for Bali Vacation card */
+  }
+  
+  /* Style for pop-up */
+  .popup {
+    display: none; /* Sembunyikan popup secara default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Warna latar belakang transparan */
+    z-index: 9999; /* Pastikan popup berada di atas konten lain */
+}
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 80%; /* Lebar maksimum popup */
+    max-height: 80%; /* Tinggi maksimum popup */
+    overflow: auto; /* Jika gambar terlalu besar, aktifkan pengguliran */
+    text-align: center; /* Pusatkan konten */
+}
+.popup-image {
+    max-width: 100vw; /* Maksimum lebar sama dengan lebar layar */
+    max-height: 100vh; /* Maksimum tinggi sama dengan tinggi layar */
+    display: block; /* Pastikan gambar ditampilkan sebagai blok untuk mengatur ukuran dengan benar */
+    margin: auto; /* Posisikan gambar di tengah */
+}
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+  
+  .blue-text {
+    color: blue; /* Warna teks biru */
+    text-decoration: underline; /* Garis bawah */
+}
+
+
+
+
+
+
+  /* Background images */
+  .img-1 {
+    background-image: url('/assets/images/4jan24.jpeg'); /* URL to your image for Jakarta Trip */
+  }
+  
+  .img-2 {
+    background-image: url('/assets/images/8jan24.jpeg'); /* URL to your image for Bali Vacation */
+  }
+  
+  .img-3 {
+    background-image: url('/assets/images/10jan24.jpeg'); /* URL to your image for Singapore Adventure */
+    background-size: contain; /* Contoh pengaturan background-size */
+  }
+  
+  .img-4 {
+    background-image: url('/assets/images/13jan24.jpeg'); /* URL to your image for Background */
+  }
+  
+  .img-5 {
+    background-image: url('/assets/images/16jan24.jpeg'); /* URL to your image for Background */
+  }
+  
+  .img-6 {
+    background-image: url('/assets/images/20jan24.jpeg'); /* URL to your image for Background */
+  }
+  
+  .img-7 {
+    background-image: url('/assets/images/21jan24.jpeg'); /* URL to your image for Background */
+  }
+
+  .img-8 {
+    background-image: url('/assets/images/23jan24.jpeg'); /* URL to your image for Background */
+  }
+
+  .img-9 {
+    background-image: url('/assets/images/27jan24.jpeg'); /* URL to your image for Background */
+  }
+
+  .img-10 {
+    background-image: url('/assets/images/1feb24.jpeg'); /* URL to your image for Background */
+  }
+  
+  .img-11 {
+    background-image: url('/assets/images/3feb24.jpeg'); /* URL to your image for Background */
+  }
+
+  .img-12 {
+    background-image: url('/assets/images/9feb24.jpeg'); /* URL to your image for Background */
+  }
+
+  .img-13 {
+    background-image: url('/assets/images/11feb24.jpeg'); /* URL to your image for Background */
+  }
+
+  .img-14 {
+    background-image: url('/assets/images/14feb24.jpeg'); /* URL to your image for Background */
+  }
+  
+  .img-15 {
+    background-image: url('/assets/images/10mar24.jpeg'); /* URL to your image for Background */
+  }
+
+  .img-16 {
+    background-image: url('/assets/images/11mar24.jpeg'); /* URL to your image for Background */
+  }
+
+  .img-17 {
+    background-image: url('/assets/images/16mar24.jpeg'); /* URL to your image for Background */
+  }
+
+  .img-18 {
+    background-image: url('/assets/images/17mar24.jpeg'); /* URL to your image for Background */
+  }
+
+  .img-19 {
+    background-image: url('/assets/images/31mar24.jpeg'); /* URL to your image for Background */
+  }
+
+  .img-20 {
+    background-image: url('/assets/images/6apr24.jpeg'); /* URL to your image for Background */
+  }
+
+  .img-21 {
+    background-image: url('/assets/images/7mar24.jpeg') /* URL to your image for Background */
+  }
+
+  .img-22 {
+    background-image: url('/assets/images/9apr24.jpeg') /* URL to your image for Background */
+  }
+
+  .img-23 {
+    background-image: url('/assets/images/13apr24.jpeg') /* URL to your image for Background */
+  }
+
+  .img-24 {
+    background-image: url('/assets/images/15apr24.jpeg') /* URL to your image for Background */
+  }
+
+  .img-25 {
+    background-image: url('/assets/images/19mei24.jpeg') /* URL to your image for Background */
+  }
+
+  .img-26 {
+    background-image: url('/assets/images/23mei24.jpeg') /* URL to your image for Background */
+  }
+
+  .img-27 {
+    background-image: url('/assets/images/25mei24.jpeg') /* URL to your image for Background */
+  }
+
+  .img-28 {
+    background-image: url('/assets/images/26mei24.jpeg') /* URL to your image for Background */
+  }
+
+  .img-29 {
+    background-image: url('/assets/images/1jul24.jpeg') /* URL to your image for Background */
+  }
+
+  .img-30 {
+    background-image: url('/assets/images/7jul24.jpeg') /* URL to your image for Background */
+  }
+
+  .img-31 {
+    background-image: url('/assets/images/10jul24.jpeg') /* URL to your image for Background */
+  }
+
+  .img-32 {
+    background-image: url('/assets/images/13jul24.jpeg') /* URL to your image for Background */
+  }
+
+  .img-33 {
+    background-image: url('/assets/images/14jul24.jpeg') /* URL to your image for Background */
+  }
+
+  .img-34 {
+    background-image: url('/assets/images/16jul24.jpeg') /* URL to your image for Background */
+  }
+
+  .img-35 {
+    background-image: url('/assets/images/17jul24.jpeg') /* URL to your image for Background */
+  }
+
+  .img-36 {
+    background-image: url('/assets/images/22jul24.jpeg') /* URL to your image for Background */
+  }
+
+  .img-37 {
+    background-image: url('/assets/images/23jul24.jpeg') /* URL to your image for Background */
+  }
+
+  .img-38 {
+    background-image: url('/assets/images/28jul24.jpeg') /* URL to your image for Background */
+  }
+
+  .img-39 {
+    background-image: url('/assets/images/3agt24.jpeg') /* URL to your image for Background */
+  }
+
+  .img-40 {
+    background-image: url('/assets/images/6agt24.jpeg') /* URL to your image for Background */
+  }
+
+  .img-41 {
+    background-image: url('/assets/images/11agt24.jpeg') /* URL to your image for Background */
+  }
+
+  .img-42 {
+    background-image: url('/assets/images/13agt24.jpeg') /* URL to your image for Background */
+  }
+
+  .img-43 {
+    background-image: url('/assets/images/14agt24.jpeg') /* URL to your image for Background */
+  }
+
+  .img-44 {
+    background-image: url('/assets/images/17agt24.jpeg') /* URL to your image for Background */
+  }
+
+  .img-45 {
+    background-image: url('/assets/images/18agt24.jpeg') /* URL to your image for Background */
+  }
+
+  .img-46 {
+    background-image: url('/assets/images/22agt24.jpeg') /* URL to your image for Background */
+  }
+
+  .img-47 {
+    background-image: url('/assets/images/25agt24.jpeg') /* URL to your image for Background */
+  }
+
+  .img-48 {
+    background-image: url('/assets/images/31agt24.jpeg') /* URL to your image for Background */
+  }
+
+  .img-49 {
+    background-image: url('/assets/images/1sep24.jpeg') /* URL to your image for Background */
+  }
+
+  .img-50 {
+    background-image: url('/assets/images/14sep24.jpeg') /* URL to your image for Background */
+  }
+
+  .img-51 {
+    background-image: url('/assets/images/15sep24.jpeg') /* URL to your image for Background */
+  }
+
+  .img-52 {
+    background-image: url('/assets/images/16sep24.jpeg') /* URL to your image for Background */
+  }
+
+
+
+
+  /* Tombol Kembali ke Atas (Back to Top) */
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #28a745;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 50%;
+  font-size: 2rem;
+  display: none; /* Tombol ini akan disembunyikan sampai halaman digulir ke bawah */
+  transition: opacity 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.back-to-top:hover {
+  background-color: #218838;
+}
+
+html {
+  scroll-behavior: smooth; /* Menambahkan efek smooth scroll */
+}
+
+
+#scrollUpBtn, #scrollDownBtn {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 9999; /* Pastikan tombol berada di atas konten lainnya */
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 50%;
+  display: none; /* Mulanya sembunyikan tombol */
+}
+
+#scrollUpBtn {
+  bottom: 80px; /* Atur jarak dari bawah untuk tombol atas */
+}
+
+#scrollDownBtn {
+  left: auto;
+  right: 20px; /* Tombol bawah ditempatkan di sebelah kanan */
+  bottom: 20px; /* Atur jarak dari bawah untuk tombol bawah */
+}
+
