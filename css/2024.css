@@ -1,5 +1,5 @@
 body {
-    background-image: url('/assets/images/background2.jpg');
+    background-image: url('../assets/images/background2.jpg');
     background-size: cover; /* Memastikan gambar mengisi seluruh area latar belakang */
     background-position: center; /* Menengahkan gambar latar belakang */
 }
@@ -250,56 +250,56 @@ body {
 
   /* Background images */
   .img-1 {
-    background-image: url('/assets/images/4jan24.jpeg'); /* URL to your image for Jakarta Trip */
+    background-image: url('../assets/images/4jan24.jpeg'); /* URL to your image for Jakarta Trip */
   }
   
   .img-2 {
-    background-image: url('/assets/images/8jan24.jpeg'); /* URL to your image for Bali Vacation */
+    background-image: url('../assets/images/8jan24.jpeg'); /* URL to your image for Bali Vacation */
   }
   
   .img-3 {
-    background-image: url('/assets/images/10jan24.jpeg'); /* URL to your image for Singapore Adventure */
+    background-image: url('../assets/images/10jan24.jpeg'); /* URL to your image for Singapore Adventure */
     background-size: contain; /* Contoh pengaturan background-size */
   }
   
   .img-4 {
-    background-image: url('/assets/images/13jan24.jpeg'); /* URL to your image for Background */
+    background-image: url('../assets/images/13jan24.jpeg'); /* URL to your image for Background */
   }
   
   .img-5 {
-    background-image: url('/assets/images/16jan24.jpeg'); /* URL to your image for Background */
+    background-image: url('../assets/images/16jan24.jpeg'); /* URL to your image for Background */
   }
   
   .img-6 {
-    background-image: url('/assets/images/20jan24.jpeg'); /* URL to your image for Background */
+    background-image: url('../assets/images/20jan24.jpeg'); /* URL to your image for Background */
   }
   
   .img-7 {
-    background-image: url('/assets/images/21jan24.jpeg'); /* URL to your image for Background */
+    background-image: url('../assets/images/21jan24.jpeg'); /* URL to your image for Background */
   }
 
   .img-8 {
-    background-image: url('/assets/images/23jan24.jpeg'); /* URL to your image for Background */
+    background-image: url('../assets/images/23jan24.jpeg'); /* URL to your image for Background */
   }
 
   .img-9 {
-    background-image: url('/assets/images/27jan24.jpeg'); /* URL to your image for Background */
+    background-image: url('../assets/images/27jan24.jpeg'); /* URL to your image for Background */
   }
 
   .img-10 {
-    background-image: url('/assets/images/1feb24.jpeg'); /* URL to your image for Background */
+    background-image: url('../assets/images/1feb24.jpeg'); /* URL to your image for Background */
   }
   
   .img-11 {
-    background-image: url('/assets/images/3feb24.jpeg'); /* URL to your image for Background */
+    background-image: url('../assets/images/3feb24.jpeg'); /* URL to your image for Background */
   }
 
   .img-12 {
-    background-image: url('/assets/images/9feb24.jpeg'); /* URL to your image for Background */
+    background-image: url('../assets/images/9feb24.jpeg'); /* URL to your image for Background */
   }
 
   .img-13 {
-    background-image: url('/assets/images/11feb24.jpeg'); /* URL to your image for Background */
+    background-image: url('../assets/images/11feb24.jpeg'); /* URL to your image for Background */
   }
 
   .img-14 {
@@ -307,15 +307,15 @@ body {
   }
   
   .img-15 {
-    background-image: url('/assets/images/10mar24.jpeg'); /* URL to your image for Background */
+    background-image: url('../assets/images/10mar24.jpeg'); /* URL to your image for Background */
   }
 
   .img-16 {
-    background-image: url('/assets/images/11mar24.jpeg'); /* URL to your image for Background */
+    background-image: url('../assets/images/11mar24.jpeg'); /* URL to your image for Background */
   }
 
   .img-17 {
-    background-image: url('/assets/images/16mar24.jpeg'); /* URL to your image for Background */
+    background-image: url('../assets/images/16mar24.jpeg'); /* URL to your image for Background */
   }
 
   .img-18 {
@@ -323,139 +323,139 @@ body {
   }
 
   .img-19 {
-    background-image: url('/assets/'); /* URL to your image for Background */
+    background-image: url('../assets/'); /* URL to your image for Background */
   }
 
   .img-20 {
-    background-image: url('/assets/images/6apr24.jpeg'); /* URL to your image for Background */
+    background-image: url('../assets/images/6apr24.jpeg'); /* URL to your image for Background */
   }
 
   .img-21 {
-    background-image: url('/assets/images/7mar24.jpeg') /* URL to your image for Background */
+    background-image: url('../assets/images/7mar24.jpeg') /* URL to your image for Background */
   }
 
   .img-22 {
-    background-image: url('/assets/images/9apr24.jpeg') /* URL to your image for Background */
+    background-image: url('../assets/images/9apr24.jpeg') /* URL to your image for Background */
   }
 
   .img-23 {
-    background-image: url('/assets/images/13apr24.jpeg') /* URL to your image for Background */
+    background-image: url('../assets/images/13apr24.jpeg') /* URL to your image for Background */
   }
 
   .img-24 {
-    background-image: url('/assets/images/15apr24.jpeg') /* URL to your image for Background */
+    background-image: url('../assets/images/15apr24.jpeg') /* URL to your image for Background */
   }
 
   .img-25 {
-    background-image: url('/assets/images/19mei24.jpeg') /* URL to your image for Background */
+    background-image: url('../assets/images/19mei24.jpeg') /* URL to your image for Background */
   }
 
   .img-26 {
-    background-image: url('/assets/images/23mei24.jpeg') /* URL to your image for Background */
+    background-image: url('../assets/images/23mei24.jpeg') /* URL to your image for Background */
   }
 
   .img-27 {
-    background-image: url('/assets/images/25mei24.jpeg') /* URL to your image for Background */
+    background-image: url('../assets/images/25mei24.jpeg') /* URL to your image for Background */
   }
 
   .img-28 {
-    background-image: url('/assets/images/26mei24.jpeg') /* URL to your image for Background */
+    background-image: url('../assets/images/26mei24.jpeg') /* URL to your image for Background */
   }
 
   .img-29 {
-    background-image: url('/assets/images/1jul24.jpeg') /* URL to your image for Background */
+    background-image: url('../assets/images/1jul24.jpeg') /* URL to your image for Background */
   }
 
   .img-30 {
-    background-image: url('/assets/images/7jul24.jpeg') /* URL to your image for Background */
+    background-image: url('../assets/images/7jul24.jpeg') /* URL to your image for Background */
   }
 
   .img-31 {
-    background-image: url('/assets/images/10jul24.jpeg') /* URL to your image for Background */
+    background-image: url('../assets/images/10jul24.jpeg') /* URL to your image for Background */
   }
 
   .img-32 {
-    background-image: url('/assets/images/13jul24.jpeg') /* URL to your image for Background */
+    background-image: url('../assets/images/13jul24.jpeg') /* URL to your image for Background */
   }
 
   .img-33 {
-    background-image: url('/assets/images/14jul24.jpeg') /* URL to your image for Background */
+    background-image: url('../assets/images/14jul24.jpeg') /* URL to your image for Background */
   }
 
   .img-34 {
-    background-image: url('/assets/images/16jul24.jpeg') /* URL to your image for Background */
+    background-image: url('../assets/images/16jul24.jpeg') /* URL to your image for Background */
   }
 
   .img-35 {
-    background-image: url('/assets/images/17jul24.jpeg') /* URL to your image for Background */
+    background-image: url('../assets/images/17jul24.jpeg') /* URL to your image for Background */
   }
 
   .img-36 {
-    background-image: url('/assets/images/22jul24.jpeg') /* URL to your image for Background */
+    background-image: url('../assets/images/22jul24.jpeg') /* URL to your image for Background */
   }
 
   .img-37 {
-    background-image: url('/assets/images/23jul24.jpeg') /* URL to your image for Background */
+    background-image: url('../assets/images/23jul24.jpeg') /* URL to your image for Background */
   }
 
   .img-38 {
-    background-image: url('/assets/images/28jul24.jpeg') /* URL to your image for Background */
+    background-image: url('../assets/images/28jul24.jpeg') /* URL to your image for Background */
   }
 
   .img-39 {
-    background-image: url('/assets/images/3agt24.jpeg') /* URL to your image for Background */
+    background-image: url('../assets/images/3agt24.jpeg') /* URL to your image for Background */
   }
 
   .img-40 {
-    background-image: url('/assets/images/6agt24.jpeg') /* URL to your image for Background */
+    background-image: url('../assets/images/6agt24.jpeg') /* URL to your image for Background */
   }
 
   .img-41 {
-    background-image: url('/assets/images/11agt24.jpeg') /* URL to your image for Background */
+    background-image: url('../assets/images/11agt24.jpeg') /* URL to your image for Background */
   }
 
   .img-42 {
-    background-image: url('/assets/images/13agt24.jpeg') /* URL to your image for Background */
+    background-image: url('../assets/images/13agt24.jpeg') /* URL to your image for Background */
   }
 
   .img-43 {
-    background-image: url('/assets/images/14agt24.jpeg') /* URL to your image for Background */
+    background-image: url('../assets/images/14agt24.jpeg') /* URL to your image for Background */
   }
 
   .img-44 {
-    background-image: url('/assets/images/17agt24.jpeg') /* URL to your image for Background */
+    background-image: url('../assets/images/17agt24.jpeg') /* URL to your image for Background */
   }
 
   .img-45 {
-    background-image: url('/assets/images/18agt24.jpeg') /* URL to your image for Background */
+    background-image: url('../assets/images/18agt24.jpeg') /* URL to your image for Background */
   }
 
   .img-46 {
-    background-image: url('/assets/images/22agt24.jpeg') /* URL to your image for Background */
+    background-image: url('../assets/images/22agt24.jpeg') /* URL to your image for Background */
   }
 
   .img-47 {
-    background-image: url('/assets/images/25agt24.jpeg') /* URL to your image for Background */
+    background-image: url('../assets/images/25agt24.jpeg') /* URL to your image for Background */
   }
 
   .img-48 {
-    background-image: url('/assets/images/31agt24.jpeg') /* URL to your image for Background */
+    background-image: url('../assets/images/31agt24.jpeg') /* URL to your image for Background */
   }
 
   .img-49 {
-    background-image: url('/assets/images/1sep24.jpeg') /* URL to your image for Background */
+    background-image: url('../assets/images/1sep24.jpeg') /* URL to your image for Background */
   }
 
   .img-50 {
-    background-image: url('/assets/images/14sep24.jpeg') /* URL to your image for Background */
+    background-image: url('../assets/images/14sep24.jpeg') /* URL to your image for Background */
   }
 
   .img-51 {
-    background-image: url('/assets/images/15sep24.jpeg') /* URL to your image for Background */
+    background-image: url('../assets/images/15sep24.jpeg') /* URL to your image for Background */
   }
 
   .img-52 {
-    background-image: url('/assets/images/16sep24.jpeg') /* URL to your image for Background */
+    background-image: url('../assets/images/16sep24.jpeg') /* URL to your image for Background */
   }
 
 
