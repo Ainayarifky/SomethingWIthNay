@@ -2,7 +2,7 @@
 body {
   font-family: 'Playwrite NG Modern', cursive;
   line-height: 1.6;
-  background-image: url('../assets/images/background.JPG');
+  background-image: url('/assets/images/background.JPG');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
