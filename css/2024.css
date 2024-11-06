@@ -319,11 +319,11 @@ body {
   }
 
   .img-18 {
-    background-image: url('/assets/images/17mar24.jpeg'); /* URL to your image for Background */
+    background-image: url('../assets/images/17mar24.jpeg'); /* URL to your image for Background */
   }
 
   .img-19 {
-    background-image: url('../assets/'); /* URL to your image for Background */
+    background-image: url('/assets/images/31mar24.jpeg'); /* URL to your image for Background */
   }
 
   .img-20 {
